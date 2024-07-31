@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head></head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Your name" />
+    <meta name="description" content="Brief description" />
+    <meta property="og:title" content="Your Page Title" />
+    <meta property="og:description" content="Brief description" />
+    <meta property="og:image" content="/some-image.png" />
+    <meta property="og:url" content="/this-page.html" />
+    <meta property="og:site_name" content="Your Site Name" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="image description" />
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
 
   <body>
     <header>
-      <img src="images/PSX_20200605_191146.jpg" width="400" height="500" />
+      <img
+        src="images/Art Wallpaper - Wallpaper Sun.jfif"
+        width="400"
+        height="500"
+      />
+      <div class="wrapper">
+        <h2>Phones</h2>
+        <nav>
+          <ul class="nav-items">
+            <li><a href="/main">Main</a></li>
+            <li><a href="#">Making</a></li>
+            <li><a href="#">Testing</a></li>
+          </ul>
+        </nav>
+      </div>
       <h1>How long should I own a phone?</h1>
-      <ol>
-        <li><a href="/main">Main</a></li>
-        <li>Making</li>
-        <img src="images/star.svg" />
-      </ol>
     </header>
-    <main>
+    <main class="content">
       <section id="why">
         <h2>The why</h2>
         <p>
@@ -30,12 +54,6 @@
           src="https://www.youtube.com/embed/a0nvlmCypLE?si=ZTs5GCCUeoLAOo0U"
         ></iframe>
       </section>
-      <iframe
-        width="100%"
-        height="500"
-        frameborder="0"
-        src="https://observablehq.com/embed/0d289f4de56c3cf5?cell=*"
-      ></iframe>
       <section id="what">
         <h2>The what</h2>
         <p>
@@ -47,6 +65,13 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
+        <iframe
+          align="center"
+          width="100%"
+          height="2576"
+          frameborder="0"
+          src="https://observablehq.com/embed/0d289f4de56c3cf5@108?cells=Graph"
+        ></iframe>
       </section>
       <section id="how">
         <h2>The how</h2>
@@ -59,6 +84,7 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
+        <img src="images/star.svg" />
       </section>
     </main>
     <footer></footer>
