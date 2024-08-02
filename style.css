@@ -15,7 +15,7 @@ body {
 }
 .header {
   width: 100%; /* Make the header span the full width of the page */
-  height: 300px; /* Adjust the height of the header */
+  height: 450px; /* Adjust the height of the header */
   overflow: hidden; /* Hide any overflow */
 }
 .header img {
