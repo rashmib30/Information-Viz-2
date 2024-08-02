@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Gill Sans MT;
+  src: url(fonts/Gill-Sans-MT.TTF);
+}
+@font-face {
+  font-family: Bangers;
+  src: url(fonts/Bangers-Regular.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -17,7 +25,7 @@ body {
 }
 h1 {
   padding: 20px;
-  font-family: "Bangers";
+  font-family: Bangers;
   font-size: 36px;
   color: #2e004f;
   text-align: center;
@@ -52,7 +60,7 @@ h1 {
 }
 .intro {
   padding: 30px;
-  font-family: "Bangers";
+  font-family: Bangers;
   font-size: 32px;
   font-weight: bold;
   color: #2e004f;
@@ -62,7 +70,7 @@ h1 {
 }
 .intro-anime {
   padding: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Gill Sans MT;
   font-size: 24px;
   max-width: 800px;
   margin: auto;
