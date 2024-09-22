@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #e6e6fa; /* Optional background color */
+  background-color: #ffffff; /* Optional background color */
   align-items: center;
 }
 .header {
@@ -71,7 +71,11 @@ h1 {
 .intro-anime {
   padding: 30px;
   font-family: Gill Sans MT;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 1.5;
   max-width: 800px;
   margin: auto;
+}
+img {
+  border: 0;
 }
