@@ -79,3 +79,9 @@ h1 {
 img {
   border: 0;
 }
+.titlesect p {
+  text-align: center;
+  font-family: Gill Sans MT;
+  font-weight: bold;
+  font-size: 16px;
+}
